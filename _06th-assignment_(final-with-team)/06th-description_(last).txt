@@ -1,0 +1,50 @@
+...
+
+InfT5039
+Course work
+Course work submission
+
+Course work submission
+Completion requirements
+Opened: Thursday, 9 November 2017, 12:00 AM
+Due: Thursday, 16 November 2017, 12:00 AM
+Groups of 2 to 4 people:
+
+•Write a program/code (any programming language)
+•Presentation (10-15 min)
+•Upload to e-studijas.llu.lv small report (write what was your responsibility in the group)
+
+...
+
+Course work requirements
+
+1. Groups of 2 to 4 people (working alone is also possible)
+2. Write a program (any programming language)
+3. Presentation (10-15 min)
+4. Upload to e-studijas.llu.lv (software and description of each team members contribution)
+
+Course work themes (option 01)
+
+1. Dijkstra algorithm (maze,obstacle solving,shortest/fastest path)
+2. Depth first search (maze, obstacle solving)
+
+Course work themes (option 02)
+
+1. Naive Bayes (cassification)
+2. kNN (classification)
+
+Course work themes (option 03)
+
+1. Create you blockchain or use testnet  to create smart contract and application with GUI that executes smart contract (e.g. wallet)
+
+...
+
+[suggested computer languages: HTML/CSS/javascript]
+
+...
+
+[my preferred choice: naive bayes & kNN classification]
+
+[my collaborator's preferred choice: dijkstra's algorithm & depth-first search]
+
+...

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Maze Solver with Dijkstra</title>
+  </head>
+  <body>
+    <div class="container d-flex flex-column align-items-center">
+      <h1 class="title">Maze Solver with Dijkstra's Algorithm</h1>
+      <canvas id="canvas" width="1000" height="600"></canvas>
+      <div class="controls">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="createStartPoint"
+          />
+          <label class="form-check-label" for="createStartPoint">
+            Create Start Point
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="createEndPoint"
+          />
+          <label class="form-check-label" for="createEndPoint">
+            Create End Point
+          </label>
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="createWalls"
+          />
+          <label class="form-check-label" for="createWalls">
+            Create Walls
+          </label>
+        </div>
+        <button class="btn btn-primary" id="randomWalls">Random Walls</button>
+        <button class="btn btn-primary" id="randomStartPoint">
+          Random Start Point
+        </button>
+        <button class="btn btn-primary" id="randomEndPoint">
+          Random End Point
+        </button>
+        <button class="btn btn-success" id="findButton">Find Path</button>
+        <form id="resetForm">
+          <button class="btn btn-danger" id="resetButton">Reset</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      Built with ❤️ using HTML, JavaScript, and Bootstrap | © 2024 Maze Solver
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
